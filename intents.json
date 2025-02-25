@@ -1,0 +1,260 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!",
+        "Okay"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "holidays",
+      "patterns": [
+        "When are holidays ? ",
+        "What kinds of holidays are there?",
+        "What holidays do we have?",
+        "tell more about holidays",
+        "holidays when ???",
+        "which days are holidays ?",
+        "How many days can we get after seach sem ?" ,
+        "Can we get study leave ?",
+        "what are the biggest holidays we can get ??",
+        "Are there any department wise special holiday ?"
+      ],
+      "responses": [""]
+    },
+    {
+      "tag": "faculty",
+      "patterns": [
+        "Do you know the teachers ?",
+        "Who are the teachers ?",
+        "Can you tell more about teachers?",
+        "Tell me about teachers  ",
+        "more info on teachers",
+        "what are the teachers ?",
+        "tell more about the teachers",
+        "narula teachers",
+        "who is the the principal and what about the placement officer??" 
+      ],
+      "responses": [
+        "Our Prinicipal is Dr. Sumithra \n Our Placement Cell has Girinath ,Rajesh kumar"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "Which Courses are offered here",
+        "tell me more about BCA",
+        "More info on BTECH please",
+        "What is MTECH ?",
+        "What is BCA ?",
+        "When do BTECH gets completed ?",
+        "How long does MCA take ?",
+        "which Course are best here ?" ,
+        "what about the fees Stucture ?" ,
+        "Are there any medical course ?" ,
+        "how many time will take to complete those course ?"
+      ],
+      "responses": ["Course related queries", "MCA takes 2years"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "result",
+      "patterns": [
+        "WHAT is my SGPA this sem ?",
+        "What is my CGPA this sem",
+        "Do you know my result?",
+        "Do you know my CGPA?",
+        "Do you know my curent cgpa?",
+        "tell me my cgpa?",
+        "tell me my curent sgpa?",
+        "tell me my result",
+        "what is my result"
+      ],
+      "responses": ["tell me your student id , example : \n434121010021"]
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "What is the name of the College?",
+        "Tell me about the college",
+        "What is the college known for?"
+      ],
+      "responses": [
+        "The name of our college is Sri Krishna College of Technology."
+      ]
+    },
+    {
+      "tag": "nirf_ranking",
+      "patterns": [
+        "What is the NIRF ranking of the College?",
+        "How is the college ranked in NIRF?"
+      ],
+      "responses": [
+        "We have secured the NIRF ranking band of #151-200 in the 2023-24 rankings."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "What are the departments in the college?",
+        "List the departments at the college",
+        "What engineering departments does the college have?"
+      ],
+      "responses": [
+        "We have various engineering departments such as Civil, Mechanical, EEE, ECE, Computer Science, AIDS, and Information Technology. Visit this page for a detailed catalogue: https://skct.edu.in/academics/departments/"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses does the college offer?",
+        "Tell me more about the courses available",
+        "What are the academic programs provided?"
+      ],
+      "responses": [
+        "We offer undergraduate courses in engineering disciplines like Civil, Mechanical, EEE, ECE, Computer Science, AIDS, and Information Technology. For more details, visit: https://skct.edu.in/academics/departments/"
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "What are the admission requirements?",
+        "How can I get admitted to the college?",
+        "What qualifications do I need to apply?"
+      ],
+      "responses": [
+        "Admission requirements typically include a HSC Certificate or a Diploma."
+      ]
+    },
+    {
+      "tag": "housing_options",
+      "patterns": [
+        "Does the college have housing options?",
+        "Are there dormitories available?",
+        "Can I stay on campus?"
+      ],
+      "responses": [
+        "Of course! We have a dormitory available for all students within the campus, including services like food, water, and cloth washing. More details are available here: https://skct.edu.in/campus-tour/hostel/"
+      ]
+    },
+    {
+      "tag": "college_website",
+      "patterns": [
+        "What is the college's website?",
+        "How can I visit the college website?",
+        "Give me the link to the college's official site."
+      ],
+      "responses": [
+        "You can view our website here: https://skct.edu.in/"
+      ]
+    },
+    {
+      "tag": "sporting_activities",
+      "patterns": [
+        "What sporting activities does the college offer?",
+        "Are there sports teams in the college?",
+        "Tell me about the sports facilities at the college."
+      ],
+      "responses": [
+        "Absolutely! We have various sporting activities such as Track and Field, Cricket, Football, Basketball, Kabaddi, Long Jump, Shot Put, etc. Visit this page for more information: https://skct.edu.in/campus-tour/sports/"
+      ]
+    },
+    {
+      "tag": "college_autonomy",
+      "patterns": [
+        "Is the college autonomous?",
+        "Does the college have autonomy?",
+        "Tell me about the college's autonomy status."
+      ],
+      "responses": [
+        "Yes! We are an autonomous university!"
+      ]
+    },
+    {
+      "tag": "online_programs",
+      "patterns": [
+        "Does the college offer online or distance learning programs?",
+        "Can I study online at this college?",
+        "Are there any remote learning options available?"
+      ],
+      "responses": [
+        "Unfortunately, we do not offer any online or distance learning programs."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What are the key dates for the academic calendar?",
+        "When are the holidays and exam periods?",
+        "Tell me about the college's academic schedule."
+      ],
+      "responses": [
+        "The academic calendar is posted online and includes important dates such as the start and end of terms, holidays, and exam periods."
+      ]
+    },
+    {
+      "tag": "college_principal",
+      "patterns": [
+        "Who is the Principal of the College?",
+        "Tell me about the college principal",
+        "What can you tell me about the principal?"
+      ],
+      "responses": [
+        "Our principal is Prof. M.G.Sumithra. She has extensive experience in academics and administration, having completed her UG in Electronics and Communication Engineering and PG in Medical Electronics. Her research interests include Information and Communication Engineering and Speech Signal Processing."
+      ]
+    },
+    {
+      "tag": "college_placements",
+      "patterns": [
+        "Where can I learn about college placements?",
+        "Tell me about the placement opportunities",
+        "What are the college's placement records?"
+      ],
+      "responses": [
+        "We provide a detailed overview of our placements here: https://skct.edu.in/placement/placement-cell/"
+      ]
+    }
+  ]
+}

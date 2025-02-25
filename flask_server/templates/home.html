@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Enquiry Chatbot</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}" />
+  </head>
+  <body>
+    <main>
+      <h1>College Enquiry Chatbot - EXAMPLE WEBSITE</h1>
+  </main>
+    <div class="chatbot-section">
+      <figure class="mobile hidden">
+        <div class="app">
+          <!-- Header -->
+          <div class="header">
+            <!-- avatar -->
+            <img
+              class="avatar"
+              src="{{url_for('static',filename='ski.png')}}"
+              alt="Chatbot"
+            />
+            <div>
+              <p>Student CHATBOT</p>
+              <span>Online</span>
+            </div>
+            <!-- name & status -->
+          </div>
+
+          <!-- Chat section -->
+          <div class="chat-messages">
+            <div class="chat-message incoming-message">
+              👋 Hello, I am Student Chat Bot
+            </div>
+            <div class="chat-message incoming-message">
+              Ask me anything related to :
+              <ol>
+                <li>College Rankings</li>
+                <li>Fees Structure</li>
+                <li>Courses Provided</li>
+                <li>Faculty Members</li>
+                <li>etc...</li>
+              </ol>
+            </div>
+          </div>
+
+          <!-- chat input section -->
+          <div class="chat-input-section">
+            <form id="chat-form">
+              <input
+                id="chat-input"
+                type="text"
+                aria-label="chat-input"
+                placeholder="Type a message ..."
+              />
+
+              <button id="mic_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+                    <path d="M12 14c1.66 0 3-1.34 3-3V5c0-1.66-1.34-3-3-3s-3 1.34-3 3v6c0 1.66 1.34 3 3 3zm5-3c0 2.76-2.24 5-5 5s-5-2.24-5-5H5c0 3.53 2.61 6.43 6 6.92V22h2v-4.08c3.39-.49 6-3.39 6-6.92h-2z"/>
+                </svg>
+            </button>
+            
+              <button
+                class="svg-btn"
+                type="submit"
+                aria-label="send-message-btn"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="chat-input-svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="white"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M9 5l7 7-7 7"
+                  />
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </figure>
+      <div class="button-container">
+        <button onclick="toggleChatBot()" class="chat-open-btn">
+          <img
+            src="https://cdn.onlinewebfonts.com/svg/img_397748.png"
+            alt="chat bot"
+          />
+        </button>
+      </div>
+    </div>
+
+    <!-- <footer>
+      Made with love ❣️ by Aravind, Gowtham and Maadhesh Kumar.
+    </footer> -->
+    <script src="{{url_for('static',filename='chat.js')}}"></script>
+  </body>
+</html>
