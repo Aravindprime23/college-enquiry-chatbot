@@ -19,11 +19,6 @@ All features :
 - **neural network** - python & pytorch
 - **natural language processing** - spacy & nltk
 
-## Getting started
-
-Go to [Instructions.md](./Instructions.md) to know how to use this repo.
-Watch the [Instructions](./instructions.mp4) here.
-
 First create a virtual environment using `virtualenv venv` command in **terminal/cmd prompt/powershell**. Then activate it. Now we can install our dependencies for this project inside this isolated virtual environment.
 
 We will install the following libraries to get started :
@@ -62,18 +57,3 @@ I used `pip install nltk spacy flask` to install them together. Then I use `pyth
 -- intents.json (dataset for training)
 -- requirement.txt (stores the name & versions of the libraries used)
 ```
-
-## Screenshots
-
-### Home Page
-
-![Home Page](./assets/Chatbot.png)
-![Home Page2](./assets/Chatbot2.png)
-![Home Page3](./assets/Chatbot3.png)
-
-### Admin Pages
-
-![Admin-Teachers](./assets/Admin-Teachers.png)
-![Admin-Students](./assets/Admin-Students.png)
-![Admin-Courses](./assets/Admin-Courses.png)
-![Admin-Holidays](./assets/Admin-Holidays.png)
