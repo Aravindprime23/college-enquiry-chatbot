@@ -29,8 +29,6 @@ We will install the following libraries to get started :
   - we will interact with our chatbot
   - admin dashboard to manage our teachers, students, courses
 
-> I went to Pytorch's [ official guide ](https://pytorch.org/get-started/locally/)to start local developement & got the command I need to install pytorch with cuda.
-
 I used `pip install nltk spacy flask` to install them together. Then I use `python -m spacy download en_core_web_sm` to download english core small version.
 
 **Note** : I have used CUDA (GPU) so torch versions have `+cu116` written. When installing from _requirements.txt_ use this command :
